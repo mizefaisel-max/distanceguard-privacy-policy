@@ -176,7 +176,7 @@
   <header class="top">
     <p class="eyebrow">DistanceGuard</p>
     <h1>Privacy Policy</h1>
-    <p class="updated">Last updated: August 28, 2026</p>
+    <p class="updated">Last updated: September 10, 2026</p>
     <p class="lede">DistanceGuard is built around one rule: everything happens on your device, and goes no further. This page explains exactly what the app looks at, what it keeps, and what it never collects, saves, or sends anywhere.</p>
   </header>
 
@@ -227,9 +227,9 @@
     <p>DistanceGuard uses your device's camera to estimate how close a face is to the screen, using on-device face detection that runs locally on the device. Camera frames are processed in real time and discarded immediately — they are never saved as a photo or video, never uploaded, and never viewed by anyone, including us.</p>
   </section>
 
-  <section id="screentime">
+ <section id="screentime">
     <h2><span class="num">4.</span> Screen-time &amp; violation data</h2>
-    <p>The App keeps a local log of screen-time usage and "too close" events so users can review them in the History screen. This log stays in the App's local storage on the device, is never transmitted anywhere, and is removed if the App is uninstalled.</p>
+    <p>The App keeps a local log of screen-time usage and "too close" events so users can review them in the History screen. For the optional per-app time-limit feature, the App uses Android's Usage Access permission to check which app is currently in the foreground, so it can enforce the daily limits set for specific apps (such as Facebook, YouTube, or TikTok). This check happens entirely on-device — the App only reads the name of the currently active app to compare it against your configured limits, and never records or transmits your general app-usage history. All of this data stays in the App's local storage on the device, is never transmitted anywhere, and is removed if the App is uninstalled.</p>
   </section>
 
   <section id="pin">
@@ -248,6 +248,7 @@
       <li><strong>Camera</strong> — for proximity/distance detection</li>
       <li><strong>Display over other apps</strong> — to show the too-close warning and "Time's Up" screen even while another app is open</li>
       <li><strong>Notifications</strong> — to show the App's status and alerts</li>
+      <li><strong>Usage Access</strong> — to detect which app is currently open, so the optional per-app time-limit feature can enforce the limits you set for specific apps</li>
     </ul>
     <p>Each permission is used only for the purpose listed above.</p>
   </section>
