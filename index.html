@@ -176,7 +176,7 @@
   <header class="top">
     <p class="eyebrow">DistanceGuard</p>
     <h1>Privacy Policy</h1>
-    <p class="updated">Last updated: September 10, 2026</p>
+    <p class="updated">Last updated: October 4, 2026</p>
     <p class="lede">DistanceGuard is built around one rule: everything happens on your device, and goes no further. This page explains exactly what the app looks at, what it keeps, and what it never collects, saves, or sends anywhere.</p>
   </header>
 
@@ -234,7 +234,7 @@
 
   <section id="pin">
     <h2><span class="num">5.</span> Security &amp; Settings PIN</h2>
-    <p>Users or parents can set an optional PIN to lock app settings and manage screen-time limits. The PIN is stored locally on the device and is never transmitted anywhere.</p>
+    <p>The App asks the user or a parent to set a 4-digit PIN. In Child and Teen mode, the PIN protects app settings and approves extra time when a time limit is reached. The PIN is stored locally on the device and is never transmitted anywhere.</p>
   </section>
 
   <section id="browser">
@@ -249,6 +249,10 @@
       <li><strong>Display over other apps</strong> — to show the too-close warning and "Time's Up" screen even while another app is open</li>
       <li><strong>Notifications</strong> — to show the App's status and alerts</li>
       <li><strong>Usage Access</strong> — to detect which app is currently open, so the optional per-app time-limit feature can enforce the limits you set for specific apps</li>
+      <li><strong>Internet</strong> — to load websites in the in-app browser and Quick Launch. DistanceGuard itself does not send your data anywhere.</li>
+      <li><strong>Foreground service (camera / special use)</strong> — to keep eye-distance protection and the "Time's Up" screen running reliably while you use other apps. A persistent notification is shown while it runs.</li>
+      <li><strong>Ignore battery optimizations</strong> — to ask Android not to stop that protection service in the background.</li>
+      <li><strong>Receive boot completed</strong> — to restart protection after the device restarts.</li>
     </ul>
     <p>Each permission is used only for the purpose listed above.</p>
   </section>
